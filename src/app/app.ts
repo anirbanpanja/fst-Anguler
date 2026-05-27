@@ -11,4 +11,5 @@ export class App {
   protected readonly title = signal('Anguler-21');
   name = "Anirban"
   age = 20
+  email = "anirban@example.com"
 }
