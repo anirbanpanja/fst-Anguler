@@ -1,3 +1,21 @@
+<h1>Event Type</h1>
+<input type="text" (input)="handleevent($event.type)">
+<input type="text" (focus)="handleevent($event.type)">
+<input type="text" (blur)="handleevent($event.type)">
+
+
+
 <h1>{{name}}</h1>
 <h1>{{age}}</h1>
+<h1>{{age1}}</h1>
 <h1>{{email}}</h1>
+<h1>{{getTotalAge(10,20)}}</h1>
+
+<h1>Calling another component</h1>
+<app-login></app-login>
+<app-signup></app-signup>
+
+<h1>Event Calling</h1>
+<button (click)="counter(true)">+</button>
+<span>{{count}}</span>
+<button (click)="counter(false)">-</button>
